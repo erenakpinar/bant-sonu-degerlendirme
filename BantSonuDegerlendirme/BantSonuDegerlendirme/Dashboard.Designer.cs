@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnOpenNewErrorForm = new System.Windows.Forms.Button();
-            this.btnDtGridRefresh = new System.Windows.Forms.Button();
             this.lstErrorDataList = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -42,17 +41,6 @@
             this.btnOpenNewErrorForm.Text = "Yeni Hata Ekle";
             this.btnOpenNewErrorForm.UseVisualStyleBackColor = true;
             this.btnOpenNewErrorForm.Click += new System.EventHandler(this.btnOpenNewErrorForm_Click);
-            // 
-            // btnDtGridRefresh
-            // 
-            this.btnDtGridRefresh.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnDtGridRefresh.Location = new System.Drawing.Point(565, 301);
-            this.btnDtGridRefresh.Name = "btnDtGridRefresh";
-            this.btnDtGridRefresh.Size = new System.Drawing.Size(94, 23);
-            this.btnDtGridRefresh.TabIndex = 2;
-            this.btnDtGridRefresh.Text = "Tabloyu Yenile";
-            this.btnDtGridRefresh.UseVisualStyleBackColor = true;
-            this.btnDtGridRefresh.Click += new System.EventHandler(this.btnDtGridRefresh_Click);
             // 
             // lstErrorDataList
             // 
@@ -68,7 +56,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 336);
             this.Controls.Add(this.lstErrorDataList);
-            this.Controls.Add(this.btnDtGridRefresh);
             this.Controls.Add(this.btnOpenNewErrorForm);
             this.Name = "Dashboard";
             this.Text = "Anasayfa";
@@ -80,7 +67,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnOpenNewErrorForm;
-        private System.Windows.Forms.Button btnDtGridRefresh;
         private System.Windows.Forms.ListBox lstErrorDataList;
     }
 }

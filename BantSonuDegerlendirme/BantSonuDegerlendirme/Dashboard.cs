@@ -27,9 +27,5 @@ namespace BantSonuDegerlendirme
             this.Hide();
             newError.Show();
         }
-
-        private void btnDtGridRefresh_Click(object sender, EventArgs e)
-        {
-        }
     }
 }
