@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace BantSonuDegerlendirme
 {
-    public partial class NewError : Form
+    public partial class NewErrorData : Form
     {
-        public NewError()
+        public NewErrorData()
         {
             InitializeComponent();
         }

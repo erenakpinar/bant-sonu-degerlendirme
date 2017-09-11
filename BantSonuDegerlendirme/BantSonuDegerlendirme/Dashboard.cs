@@ -23,7 +23,7 @@ namespace BantSonuDegerlendirme
 
         private void btnOpenNewErrorForm_Click(object sender, EventArgs e)
         {
-            NewError newError = new NewError();
+            NewErrorData newError = new NewErrorData();
             this.Hide();
             newError.Show();
         }

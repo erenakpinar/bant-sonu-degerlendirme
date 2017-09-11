@@ -1,6 +1,6 @@
 ﻿namespace BantSonuDegerlendirme
 {
-    partial class NewError
+    partial class NewErrorData
     {
         /// <summary>
         /// Required designer variable.
