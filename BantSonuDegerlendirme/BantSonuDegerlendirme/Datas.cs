@@ -11,13 +11,24 @@ namespace BantSonuDegerlendirme
 
         public void Init()
         {
-            errors.Add("test");
-            errors.Add("testt");
-
-            User user = new User();
-            user.userName = "eren";
-            user.password = "1";
-            users.Add(user);
+            errors.Add("SAAT CEBİ");
+            errors.Add("J DİKİŞ");
+            errors.Add("BİYE");
+            errors.Add("ETİKET");
+            errors.Add("ÖN AĞ BİRLEŞTİRME");
+            errors.Add("OVERLOK");
+            errors.Add("ARKA CEP");
+            errors.Add("CONTA");
+            errors.Add("ARKA ORTA BACAK ARASI");
+            errors.Add("YAN ÇİMA");
+            errors.Add("KEMER");
+            errors.Add("KEMER UCU");
+            errors.Add("PAÇA");
+            errors.Add("KÖPRÜ");
+            errors.Add("ARKA CEP PUNT.");
+            errors.Add("YAN ÇİMA PUNT.");
+            errors.Add("İPLİK TEMİZLEME");
+            errors.Add("DİĞER");
 
             User user2 = new User();
             user2.userName = "irem";
