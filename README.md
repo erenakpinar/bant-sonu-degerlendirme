@@ -1,0 +1,1 @@
+# bant-sonu-degerlendirme
