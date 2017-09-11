@@ -30,10 +30,10 @@ namespace BantSonuDegerlendirme
             errors.Add("İPLİK TEMİZLEME");
             errors.Add("DİĞER");
 
-            User user2 = new User();
-            user2.userName = "irem";
-            user2.password = "1";
-            users.Add(user2);
+            User user = new User();
+            user.userName = "irem";
+            user.password = "1";
+            users.Add(user);
         }
 
         public List<string> GetAllError()
