@@ -67,11 +67,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewError.cs">
+    <Compile Include="NewErrorData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewError.Designer.cs">
-      <DependentUpon>NewError.cs</DependentUpon>
+    <Compile Include="NewErrorData.Designer.cs">
+      <DependentUpon>NewErrorData.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +82,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewError.resx">
-      <DependentUpon>NewError.cs</DependentUpon>
+    <EmbeddedResource Include="NewErrorData.resx">
+      <DependentUpon>NewErrorData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

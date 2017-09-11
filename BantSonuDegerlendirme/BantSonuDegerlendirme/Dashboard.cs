@@ -27,5 +27,10 @@ namespace BantSonuDegerlendirme
             this.Hide();
             newError.Show();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
