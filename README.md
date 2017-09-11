@@ -1,1 +1,2 @@
-# bant-sonu-degerlendirme
+# Bant Sonu Değerlendirme
+## İrem Senem Dede
